@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Maze game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="Libraries/p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBKSAm5qMtWtTjqt6-FeZocaRROSNTLSJw",
+        authDomain: "maze-game-35c36.firebaseapp.com",
+        projectId: "maze-game-35c36",
+        storageBucket: "maze-game-35c36.appspot.com",
+        messagingSenderId: "130691485119",
+        appId: "1:130691485119:web:e89d87e16963c6df1fa50a"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="Libraries/matter.js"></script>
+    <script src="Js/Game.js"></script>
+    <script src="Js/Form.js"></script>
+    <script src="Js/Player.js"></script>
+    <script src="Walls.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
